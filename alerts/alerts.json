@@ -1,0 +1,42 @@
+[
+  {
+    "alert_id": "SPACE01-2026-02-06T13:00:20+00:00",
+    "ride_id": "SPACE01",
+    "time": "2026-02-06 13:00:20+00:00",
+    "severity": "MEDIUM",
+    "why_flagged": [
+      "max_current 25.8A > 4.0\u03c3 above baseline"
+    ],
+    "suggested_next_check": [
+      "Inspect for intermittent obstructions or momentary binding events.",
+      "Check motor drive / power electronics for transient faults or current limiting behavior.",
+      "Correlate this timestamp with ride stop/start events or operator logs (if available).",
+      "Check sensor integrity and wiring for noise or intermittent connection.",
+      "Confirm sampling consistency (missing data can inflate variability in windows).",
+      "Monitor motor temperature and current trend closely over the next 10\u201315 minutes."
+    ],
+    "mean_current": 22.01,
+    "max_current": 25.8,
+    "std_current": 3.651,
+    "score": 1.0
+  },
+  {
+    "alert_id": "SPACE01-2026-02-06T13:00:30+00:00",
+    "ride_id": "SPACE01",
+    "time": "2026-02-06 13:00:30+00:00",
+    "severity": "HIGH",
+    "why_flagged": [
+      "max_current 25.9A > 4.0\u03c3 above baseline"
+    ],
+    "suggested_next_check": [
+      "Inspect mechanical load (binding/friction) and drivetrain alignment.",
+      "Verify lubrication schedule and check for abnormal wear on moving components.",
+      "Review recent maintenance changes that could increase resistance (belt tension, alignment).",
+      "Monitor motor temperature and current trend closely over the next 10\u201315 minutes."
+    ],
+    "mean_current": 25.74,
+    "max_current": 25.9,
+    "std_current": 0.092,
+    "score": 1.0
+  }
+]
